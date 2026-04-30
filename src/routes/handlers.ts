@@ -16,7 +16,7 @@ export const createPosts = async (phoneNumber: string, fullName: string) => {
         number: cleanNumber,
         sender: senderSerial,
         type: "text",
-        message: `Hi ${fullName},your registration was successful! Welcome to Effective Communication Using SMS. on May 7th, 2026 at 10:00 AM`
+        message: `Hi ${fullName}, your registration was successful! Welcome to Effective Communication Using SMS. on May 7th, 2026 at 10:00 AM`
     };
 
     try {
